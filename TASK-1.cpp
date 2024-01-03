@@ -20,10 +20,10 @@ public:
             if (max2 > max1)
             {
                 temp = max2;
-                max2 = max1;
+                max2 = max1; //compare 1st and 2nd largest number 
                 max1 = temp;
             }
-            if (max2 < arr[i])
+            if (max2 < arr[i])     //Compare 2nd max number to other element to find the next maximum number; 
             {
                 max2 = arr[i];
             }
