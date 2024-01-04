@@ -1,6 +1,7 @@
 class Solution
 {
 public:
+    // Return numbers of Good pair;
     int numIdenticalPairs(vector<int> &nums)
     {
         int count = 0;
